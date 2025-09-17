@@ -1,3 +1,6 @@
-x = 3
-y = float(3)
-print(x,y)
+def not_movies(homework):
+    if (homework == False):
+        print("Going to the Movies")
+    else:
+        print("I hate Russain")
+not_movies(homework=True)
