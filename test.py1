@@ -1,0 +1,4 @@
+def Factor(x,y):
+    if x % y == 0:
+        print(f"{y} is a factor of {x}")
+Factor(25, 5)
