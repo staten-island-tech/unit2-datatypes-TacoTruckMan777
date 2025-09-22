@@ -12,8 +12,8 @@
 #print(values[6])
 # "test"
 # ["t","e","s","t"]
-x = "this is a thing"
-y= x.split( )
-z = y[0]
-print(y)
-print(z)
+# x = "this is a thing"
+# y= x.split( )
+# z = y[0]
+# print(y)
+# print(z)
