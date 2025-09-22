@@ -17,3 +17,19 @@
 # z = y[0]
 # print(y)
 # print(z)
+# def tip_calc():
+#     tip = input("how was the service, Bad, Okay, Good, Great")
+#     tip_perc = 0
+#     if tip == "Great":
+#         tip_perc = 0.25
+#     elif tip == "Good":
+#         tip_perc = 0.20
+#     elif tip == "Okay":
+#         tip_perc = 0.15
+#     elif tip == "bad":
+#         tip_perc = 0
+#     bill = float(input("what was your bill?"))
+#     Subtotal = tip_perc * bill
+#     total = Subtotal + bill
+#     print (f"This is your total {total}")
+# tip_calc()
