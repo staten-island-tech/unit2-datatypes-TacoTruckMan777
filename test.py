@@ -33,3 +33,26 @@
 #     total = Subtotal + bill
 #     print (f"This is your total {total}")
 # tip_calc()
+# def factored():
+#     list = []
+#     number = input("what number?")
+#     number = int(number)
+#     for i in range(number):
+#             list.append(i+1)
+#     print(list)
+# factored()
+def Gcf():
+    list = []
+    x = input("x is?")
+    num1 = int(num1)
+    num2 = input("y is?")
+    num2 = int(num2)
+    for i in range(num1):
+        if num1 %(i+1) == 0:
+            list.append
+    for i in range(num2):
+        if num2 %(i+1) == 0:
+            list.append
+    print(list)
+Gcf()
+ 
