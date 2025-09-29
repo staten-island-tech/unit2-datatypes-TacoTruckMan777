@@ -44,15 +44,14 @@
 def Gcf():
     list = []
     x = input("x is?")
-    num1 = int(num1)
-    num2 = input("y is?")
-    num2 = int(num2)
-    for i in range(num1):
-        if num1 %(i+1) == 0:
-            list.append
-    for i in range(num2):
-        if num2 %(i+1) == 0:
-            list.append
-    print(list)
+    x = int(x)
+    y = input("y is?")
+    y = int(y)
+    h = -1
+    for i in range(x):
+        if x %(i+1) == 0 and y %(i+1)== 0:
+            list.append(i+1)
+            h = h + 1
+    print (f"This is your GCF:{(list[h])}")
 Gcf()
  
