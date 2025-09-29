@@ -41,17 +41,29 @@
 #             list.append(i+1)
 #     print(list)
 # factored()
-def Gcf():
-    list = []
-    x = input("x is?")
-    x = int(x)
-    y = input("y is?")
-    y = int(y)
-    h = -1
-    for i in range(x):
-        if x %(i+1) == 0 and y %(i+1)== 0:
-            list.append(i+1)
-            h = h + 1
-    print (f"This is your GCF:{(list[h])}")
-Gcf()
- 
+# def Gcf():
+#     list = []
+#     x = input("x is?")
+#     x = int(x)
+#     y = input("y is?")
+#     y = int(y)
+#     h = -1
+#     for i in range(x):
+#         if x %(i+1) == 0 and y %(i+1)== 0:
+#             list.append(i+1)
+#             h = h + 1
+#     print (f"This is your GCF:{(list[h])}")
+# Gcf()
+def Game():
+    import random
+    random_number = random.randint(1, 10)
+    x = input("your number")
+    if random_number == x:
+        print(f"correct your number is {random_number}")
+    if random_number > x:
+        print("your number is too low")
+    if random_number < x:
+        print("your number is too low")
+Game()
+    
+    
