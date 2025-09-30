@@ -57,12 +57,14 @@
 def Game():
     import random
     random_number = random.randint(1, 10)
-    x = input("your number")
-    if random_number == x:
+    random_number = int(random_number)
+    while guess != random_number:
+    guess = int(input("your number"))
+    if random_number == guess:
         print(f"correct your number is {random_number}")
-    if random_number > x:
-        print("your number is too low")
-    if random_number < x:
+    elif 11 > guess > random_number:
+        print("your number is too high")
+    else:
         print("your number is too low")
 Game()
     
