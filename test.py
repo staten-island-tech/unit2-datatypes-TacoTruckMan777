@@ -56,16 +56,24 @@
 # Gcf()
 def Game():
     import random
+    list = []
     random_number = random.randint(1, 10)
     random_number = int(random_number)
-    while guess != random_number:
     guess = int(input("your number"))
-    if random_number == guess:
-        print(f"correct your number is {random_number}")
-    elif 11 > guess > random_number:
-        print("your number is too high")
-    else:
-        print("your number is too low")
+    while guess != random_number: 
+        if random_number == guess:
+            list.append(guess)
+            print(list)
+        elif 11 > guess > random_number:
+            list.append(guess)
+            print("your number is too high")
+            guess = int(input("your number"))
+        else:
+            list.append(guess)
+            print("your number is too low")
+            guess = int(input("your number"))
+    print(f"correct your number is {random_number}")
+    print(list)
 Game()
     
     
