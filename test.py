@@ -54,28 +54,6 @@
 #             h = h + 1
 #     print (f"This is your GCF:{(list[h])}")
 # Gcf()
-def Game():
-    import random
-    list = []
-    random_number = random.randint(1, 10)
-    random_number = int(random_number)
-    guess = int(input("your number"))
-    while guess != random_number: 
-        if random_number == guess:
-            list.append(guess)
-            print(list)
-        elif 11 > guess > random_number:
-            list.append(guess)
-            print("your number is too high")
-            guess = int(input("your number"))
-        else:
-            list.append(guess)
-            print("your number is too low")
-            guess = int(input("your number"))
-    print(f"correct your number is {random_number}")
-    print(list)
-Game()
-    
 # def Game():
 #     import random
 #     list = []
